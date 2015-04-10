@@ -9,10 +9,10 @@
   'validate' => NULL,
   'vehicle_package' => 'transport',
   'vehicle_class' => 'xPDOObjectVehicle',
-  'guid' => 'cbe59e9e4ab0844c6da8ad84d0b4b282',
+  'guid' => 'd116d590c6fc354211620657583351ec',
   'package' => 'modx',
   'class' => 'modNamespace',
-  'signature' => '0e34aa1c89a211192d2d225f81906ce2',
+  'signature' => '3037433679f81d30c414a7237fda16d5',
   'native_key' => 'checkboxmenu',
   'object' => '{"name":"checkboxmenu","path":"{core_path}components\\/checkboxmenu\\/","assets_path":""}',
 );
