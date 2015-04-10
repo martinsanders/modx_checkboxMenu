@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'checkboxmenu-0.1.1-beta1/xPDOTransportVehicle/a210e350b7971b95a2f61701ce6d4654/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'getresources-1.6.1-pl.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'namespace' => 'checkboxmenu',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"checkboxmenu-0.1.1-beta1\\/xPDOTransportVehicle\\/a210e350b7971b95a2f61701ce6d4654.getresources-1.6.1-pl.resolver","type":"php","name":"getresources-1.6.1-pl"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"checkboxmenu-0.1.1-beta1\\/xPDOTransportVehicle\\/a210e350b7971b95a2f61701ce6d4654.getresources-1.6.1-pl.validator","type":"php","name":"getresources-1.6.1-pl"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '296e6a5189ee39ea06c2e41ac3d94cf8',
+  'package' => '',
+  'signature' => 'a210e350b7971b95a2f61701ce6d4654',
+  'native_key' => '296e6a5189ee39ea06c2e41ac3d94cf8',
+);

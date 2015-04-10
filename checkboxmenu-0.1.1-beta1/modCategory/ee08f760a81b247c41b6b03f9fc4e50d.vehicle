@@ -1,0 +1,99 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      'fe5cb90fde6cfd796dae2715d5e39ec9' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":19,"source":1,"property_preprocess":0,"name":"checkboxRowTpl","description":"","editor_type":0,"category":5,"cache_type":0,"snippet":"<div>\\n\\t[[+pagetitle]]\\n\\t[[+thumbnail]]\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div>\\n\\t[[+pagetitle]]\\n\\t[[+thumbnail]]\\n<\\/div>"}',
+        'guid' => '03e1f0bd76acd85a5bd7929cacf6e557',
+        'native_key' => 19,
+        'signature' => '03ae482fe1b9470d4ce4d1bbf806f6c7',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '2c4eabb1c94930018a4cf4a0bd20c668' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":36,"source":1,"property_preprocess":0,"name":"checkboxMenu","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"$menu = $menuArray = \\"\\";\\n$menuArray = (explode(\\" \\",$tv));\\n$menu = \'<ul class=\\"\' . $outerClass . \'\\">\';\\nforeach($menuArray as $tag){\\n\\t$menu .= \'<li><a href=\\"\' . $modx->makeUrl($target) . \'&tag=\' . strtolower($tag) . \'\\">\' . strtoupper($tag) . \'<\\/a><\\/li>\';\\n}\\n$menu .= \'<\\/ul>\';\\nreturn($menu);","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"$menu = $menuArray = \\"\\";\\n$menuArray = (explode(\\" \\",$tv));\\n$menu = \'<ul class=\\"\' . $outerClass . \'\\">\';\\nforeach($menuArray as $tag){\\n\\t$menu .= \'<li><a href=\\"\' . $modx->makeUrl($target) . \'&tag=\' . strtolower($tag) . \'\\">\' . strtoupper($tag) . \'<\\/a><\\/li>\';\\n}\\n$menu .= \'<\\/ul>\';\\nreturn($menu);"}',
+        'guid' => '3b18252f0d15334f5a8336949d027a27',
+        'native_key' => 36,
+        'signature' => '0c145dd35b7f3b86189ca9d2ee50134e',
+      ),
+    ),
+    'Templates' => 
+    array (
+      '24f566a96feaddccc7c956a85968eae7' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":6,"source":1,"property_preprocess":0,"templatename":"checkboxMenu.Child","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"[[!checkboxMenu? \\n\\t&outerClass=`` \\n\\t&tv=`[[*checkboxMenu]]` \\n\\t&target=`[[*parent]]`\\n]]","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+        'guid' => '7f41e8f4b9c53abef53273cc7c0dc5d8',
+        'native_key' => 6,
+        'signature' => '520ea616d5c6fd5d20a16e69e5b513bb',
+      ),
+      'e26c348bd92ea9bd7b674b463c76ac08' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":7,"source":1,"property_preprocess":0,"templatename":"checkboxMenu.Parent","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"[[!getResources?\\n\\t&parents=`[[*id]]`\\n\\t&tpl=`checboxMenuRowTpl`\\n\\t&includeTVs=`1`\\n\\t&processTVs=`1`\\n\\t&tvPrefix=``\\n\\t&limit=`0`\\n\\t&tvFilters=`checkboxMenu==%[[!get? &if=`tag` &returnValue=`1`]]%`\\n]]","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+        'guid' => 'c2ceaf4a9d6d36ad7d8b10296922e3ed',
+        'native_key' => 7,
+        'signature' => '636e8d26158001b697e989a6a1f68088',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'checkboxmenu',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e1011481d40b74394faf27a2ed75eff4',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'ee08f760a81b247c41b6b03f9fc4e50d',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"checkboxMenu"}',
+);

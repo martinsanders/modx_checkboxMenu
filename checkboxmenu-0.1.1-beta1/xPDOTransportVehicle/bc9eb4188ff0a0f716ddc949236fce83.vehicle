@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'checkboxmenu-0.1.1-beta1/xPDOTransportVehicle/bc9eb4188ff0a0f716ddc949236fce83/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'get-0.1.1-beta1.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'namespace' => 'checkboxmenu',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"checkboxmenu-0.1.1-beta1\\/xPDOTransportVehicle\\/bc9eb4188ff0a0f716ddc949236fce83.get-0.1.1-beta1.resolver","type":"php","name":"get-0.1.1-beta1"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"checkboxmenu-0.1.1-beta1\\/xPDOTransportVehicle\\/bc9eb4188ff0a0f716ddc949236fce83.get-0.1.1-beta1.validator","type":"php","name":"get-0.1.1-beta1"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'e87597bb2e8d416db232d0671bfbada9',
+  'package' => '',
+  'signature' => 'bc9eb4188ff0a0f716ddc949236fce83',
+  'native_key' => 'e87597bb2e8d416db232d0671bfbada9',
+);
